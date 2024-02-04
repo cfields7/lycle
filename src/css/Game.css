@@ -22,7 +22,7 @@
   filter: drop-shadow(4px 4px 5px #ff7f27);
 }
 .story.July {
-  filter: drop-shadow(4px 4px 5px linear-gradient(red, blue, white));
+  filter: drop-shadow(4px 4px 5px red);
 }
 
 .storyOptions {

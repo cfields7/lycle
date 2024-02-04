@@ -4,7 +4,7 @@
 
 .customizationOptions {
   position: fixed;
-  top: 20vh;
+  top: 23vh;
   right: 20vw;
   display: flex;
   flex-direction: column;
@@ -14,7 +14,7 @@
 
 .customizeTitle {
   font-size: 4vh;
-  margin-bottom: 7vh;
+  margin-bottom: 3vh;
 }
 
 .colorLabel {
@@ -30,6 +30,10 @@
   width: 100px;
   height: 100px;
   border: 1px solid black;
+}
+
+.color:hover {
+  cursor: pointer;
 }
 
 .blue {
@@ -51,11 +55,19 @@
   background-color: #ff7f27;
 }
 .july {
-  background-color: linear-gradient(red, blue, white);
+  background: linear-gradient(red, blue, white);
+}
+.true {
+  border: 3px solid black;
+}
+
+.startContainer {
+  position: absolute;
+  bottom: 7vh;
+  width: 100%;
 }
 
 .startButton {
-  margin-top: 9vh;
   font-size: 6vh;
   padding: 2vh;
   background-color: #a3c78d;

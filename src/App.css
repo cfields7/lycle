@@ -44,3 +44,7 @@ button:hover {
 button:active {
   background-color: rgb(140, 181, 115);
 }
+
+.backgroundAnimal {
+  height: 400px;
+}
