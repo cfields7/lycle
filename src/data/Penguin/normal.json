@@ -20,7 +20,7 @@
     "emotion": "Happy",
     "option": "Wander from the Colony",
     "story": "As a curious penguin, you decide to wander away from your colony. Your mother calls out to you, but she's preoccupied with your siblings. You explore the icy landscapes, and a human calls out to you. What will you do?",
-    "optionA": "NP_ABA",
+    "optionA": "NP_AABBA",
     "optionB": "NP_ABB"
   },
   {
