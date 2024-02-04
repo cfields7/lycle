@@ -1,5 +1,5 @@
 ![Lycle Logo](src/images/Lycle_Logo.png)
-# [Play now at lycle.co](https://www.lycle.co)
+# [Play now at lycle.co!](https://www.lycle.co)
 
 # [View the Brainstorming & Game Design Docs](https://docs.google.com/document/d/1-T8EkpMqGcWJ6zJtZEbR99Gx8b53dZI3TKYyeSZGf84/edit?usp=sharing)
 
