@@ -79,16 +79,9 @@
   {
     "id": "CS_AAAB",
     "option": "Stay in the Bag",
-    "story": "",
-    "optionA": "",
-    "optionB": ""
-  },
-  {
-    "id": "CS_AAAAA",
-    "option": "Greet Her Excitedly",
-    "story": "",
-    "optionA": "",
-    "optionB": ""
+    "story": "You don't know where you are and you aren't going to risk it. You are just a baby after all. You stay in the bag you were trapped in until the human starts to scoop you up out of the bag against your will. You close your eyes, scared of what you might see.",
+    "optionA": "CS_AABAAA",
+    "optionB": "CS_AABAAB"
   },
   {
     "id": "CS_AAAAB",
@@ -114,7 +107,7 @@
   {
     "id": "CS_AABAAB",
     "option": "Remain Calm",
-    "story": "Everything is okay! No matter what, you know you have the power of anime and god on your side. You wait in the bag until you are set down. The man lets you out to explore his house and you move in with him.\n\nTwo years later, something unusual happens... your owner has brought home a female hooman.",
+    "story": "Everything is okay! No matter what, you know you have the power of anime and god on your side. You wait until you are finally set down. The man lets you explore his house and you are pleasently surprised by the wonderful living quarters he is offering to you. The offer is too good to pass up, so you decide to move in with him.\n\nTwo years later, something unusual happens... your owner has brought home a female hooman.",
     "optionA": "CS_AAAAA",
     "optionB": "CS_AAAAB"
   },
@@ -133,46 +126,25 @@
     "optionB": "CS_AAAAB"
   },
   {
-    "id": "",
-    "option": "",
-    "story": "",
-    "optionA": "",
-    "optionB": ""
+    "id": "CS_AAAAA",
+    "option": "Greet Her Excitedly",
+    "story": "How bad can the woman be? You walk up to her and sniff. She smells alright. Next you lean your neck up and let her touch the side of your head. Good pets! Yeah she's definitely a keeper, you approve. How do you wanna break the news of your blessing to Mr. Hooman?",
+    "optionA": "CS_AAAAAA",
+    "optionB": "CS_AAAAAB"
   },
   {
-    "id": "",
-    "option": "",
-    "story": "",
-    "optionA": "",
-    "optionB": ""
+    "id": "CS_AAAAAA",
+    "option": "Meow",
+    "story": "You meow at Mr. Hooman and he laughs at how cute you are. Ultimatly, the three of you live a long healthy happily ever after.",
+    "optionA": "CS_MENU",
+    "optionB": "CS_AGAIN"
   },
   {
-    "id": "",
-    "option": "",
-    "story": "",
-    "optionA": "",
-    "optionB": ""
-  },
-  {
-    "id": "",
-    "option": "",
-    "story": "",
-    "optionA": "",
-    "optionB": ""
-  },
-  {
-    "id": "",
-    "option": "",
-    "story": "",
-    "optionA": "",
-    "optionB": ""
-  },
-  {
-    "id": "",
-    "option": "",
-    "story": "",
-    "optionA": "",
-    "optionB": ""
+    "id": "CS_AAAAAB",
+    "option": "Purr",
+    "story": "You purr at Mr. Hooman and Miss Hooman is astonished at how cute you are. Ultimatly, the three of you live a long healthy happily ever after.",
+    "optionA": "CS_MENU",
+    "optionB": "CS_AGAIN"
   },
   {
     "id": "CS_START",
