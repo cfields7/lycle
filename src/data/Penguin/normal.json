@@ -25,11 +25,11 @@
   },
   {
     "id": "NP_AA",
-    "emotion": "idle",
+    "emotion": "Idle",
     "option": "Find Mom",
     "story": "Unable to endure the hunger any longer, you set out to find your mom. Waddling through the icy landscape, you come across unfamiliar smells. Following the scent, you discover a fisherman's catch. What do you choose?",
     "optionA": "NP_AAA",
-    "optionB": "NP_AAB"
+    "optionB": "NP_ABB"
   },
   {
     "id": "NP_AAA",
@@ -37,7 +37,7 @@
     "option": "Go Towards the Food",
     "story": "Driven by hunger, you approach the delicious aroma of fresh fish. Suddenly, a human appears, placing you in a bag. Terrified, you await your fate. The bag is unzipped, revealing a new environment. What will you do now?",
     "optionA": "NP_AAAA",
-    "optionB": "NP_AAAB"
+    "optionB": "NP_ABAB"
   },
   {
     "id": "NP_AAAA",
@@ -122,8 +122,8 @@
   {
     "id": "NP_ABABB",
     "emotion": "Happy",
-    "option": "Romannce Her",
-    "story": "You pull the penguin closer, and hand her a pebble, proposing on the spot. You two live a long happy life together",
+    "option": "Romance Her",
+    "story": "You pull the penguin closer, and hand her a pebble, proposing on the spot. You two live a long happy life together.",
     "optionA": "NP_MENU",
     "optionB": "NP_START"
   },
@@ -177,6 +177,7 @@
   },
   {
     "id": "NP_MENU",
+    "emotion": "Idle",
     "option": "Return to Main Menu"
   }
 ]

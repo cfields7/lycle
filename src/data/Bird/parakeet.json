@@ -109,7 +109,7 @@
     "option": "Observe Cautiously",
     "story": "You cautiously observe the family's activities, remaining on high alert. As time passes, you realize the family means no harm. Slowly, you become more comfortable and start to interact with them. Your newfound trust leads to a happy life with your adopted family.",
     "optionA": "PB_AAAAA",
-    "optionB": "PB_AABB"
+    "optionB": "PB_AAAAB"
   },
   {
     "id": "PB_AABBB",
@@ -144,6 +144,14 @@
     "optionB": "PB_AAAB"
   },
   {
+    "id": "PB_AAAA",
+    "emotion": "Happy",
+    "option": "Accept Adoption",
+    "story": "You live a happy life with your new owners.",
+    "optionA": "PB_MENU",
+    "optionB": "PB_START"
+  },
+  {
     "id": "PB_AAAB",
     "emotion": "Sad",
     "option": "Hide in the Cage",
@@ -153,6 +161,7 @@
   },
   {
     "id": "PB_MENU",
+    "emotion": "Idle",
     "option": "Return to Main Menu"
   }
 ]
