@@ -1,11 +1,13 @@
 import './App.css';
-import { useState } from 'react';
+import { useRef, useState } from 'react';
 
 import Menu from './components/Menu.js';
 import Settings from './components/Settings.js';
 import Game from './components/Game.js';
 import Selection from './components/Selection.js';
 import Customization from './components/Customization.js';
+
+import BackgroundMusic from './audio/menu.wav';
 
 function App() {
 
@@ -17,6 +19,8 @@ function App() {
   const [ animalColor, setAnimalColor ] = useState("White");
   const [ animalEmotion, setAnimalEmotion ] = useState("Idle");
   const [ animalSpecies, setAnimalSpecies ] = useState("Undefined");
+
+  const audioRef = useRef(null);
 
   function updateAnimalAttribute(attribute, value) {
     switch(attribute) {
@@ -39,29 +43,34 @@ function App() {
 
   return (
     <div className="App">
+      <div class="sliding-background"></div>
       <link href='https://fonts.googleapis.com/css?family=Fredoka One' rel='stylesheet'></link>
       
-      {(currentPage === 'Home') && <Menu setCurrentPage={setCurrentPage}></Menu>}
+      {(currentPage === 'Home') && <Menu setCurrentPage={setCurrentPage} audioRef={audioRef}></Menu>}
       {(currentPage === 'Settings') && <Settings setCurrentPage={setCurrentPage}
-                                                 gameSounds={gameSounds}
-                                                 setGameSounds={setGameSounds}>
+                                                gameSounds={gameSounds}
+                                                setGameSounds={setGameSounds}>
                                         </Settings>}
       {(currentPage === 'Game') && <Game setCurrentPage={setCurrentPage}
-                                         type={animalType}
-                                         color={animalColor}
-                                         emotion={animalEmotion}
-                                         species={animalSpecies}
-                                         updateAnimalAttribute={updateAnimalAttribute}></Game>}
+                                        type={animalType}
+                                        color={animalColor}
+                                        emotion={animalEmotion}
+                                        species={animalSpecies}
+                                        updateAnimalAttribute={updateAnimalAttribute}></Game>}
       {(currentPage === 'Selection') && <Selection setCurrentPage={setCurrentPage}
-                                                   updateAnimalAttribute={updateAnimalAttribute}>
+                                                  updateAnimalAttribute={updateAnimalAttribute}>
                                         </Selection>}
       {(currentPage === 'Customization') && <Customization setCurrentPage={setCurrentPage}
-                                                           type={animalType}
-                                                           color={animalColor}
-                                                           emotion={animalEmotion}
-                                                           species={animalSpecies}
-                                                           updateAnimalAttribute={updateAnimalAttribute}>
+                                                          type={animalType}
+                                                          color={animalColor}
+                                                          emotion={animalEmotion}
+                                                          species={animalSpecies}
+                                                          updateAnimalAttribute={updateAnimalAttribute}>
                                             </Customization>}
+      <audio ref={audioRef} loop autoplay>
+        <source src={BackgroundMusic} type="audio/wav" />
+      </audio>
+      
       
     </div>
   );

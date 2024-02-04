@@ -11,7 +11,7 @@
     "id": "PB_A",
     "emotion": "Happy",
     "option": "Long For Adoption",
-    "story": "You long for adoption in the shelter, trying to make friend with everyone you see. One day, a kind family walks into the shelter looking for a new pet. What will you do?",
+    "story": "You long for adoption in the shelter, trying to make friends with everyone you see. One day, a kind family walks into the shelter looking for a new pet. What will you do?",
     "optionA": "PB_AA",
     "optionB": "PB_AB"
   },
@@ -19,7 +19,7 @@
     "id": "PB_B",
     "emotion": "Sad",
     "option": "Hope to Stay in Shelter",
-    "story": "You want to stay in the shelter, enjoying the company of your bird buddies. You grow stronger and more colorful with each passing day. Slowly, howeverm your bird friends start to get adopted by strangers.",
+    "story": "You want to stay in the shelter, enjoying the company of your bird buddies. You grow stronger and more colorful with each passing day. Slowly, however, your bird friends start to get adopted by strangers.",
     "optionA": "PB_BA",
     "optionB": "PB_BB"
   },
@@ -35,7 +35,7 @@
     "id": "PB_BAA",
     "emotion": "Fear",
     "option": "Hatch Sinister Plan",
-    "story": "You hatch a sinister plan to take revenge of the people. As soon as you are let out of the cage for a cleaning, you bite furiously at a human, but instead of falling to your command, they throw you out and you cannot survive on your own.",
+    "story": "You hatch a sinister plan to take revenge on the people. As soon as you are let out of the cage for a cleaning, you bite furiously at a human, but instead of falling to your command, they throw you out and you cannot survive on your own.",
     "optionA": "PB_MENU",
     "optionB": "PB_START"
   },
