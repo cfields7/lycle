@@ -1,7 +1,7 @@
 [
   {
     "id": "PB_START",
-    "emotion": "happy",
+    "emotion": "Happy",
     "option": "",
     "story": "Tweet! You're a baby parakeet, born in a cozy shelter. The friendly shelter staff takes good care of you, and you spend your days chirping and playing with your fellow feathered friends. Life is simple and happy.",
     "optionA": "PB_A",
@@ -9,7 +9,7 @@
   },
   {
     "id": "PB_A",
-    "emotion": "happy",
+    "emotion": "Happy",
     "option": "Stay in the Shelter",
     "story": "You decide to stay in the shelter, enjoying the company of your bird buddies. You grow stronger and more colorful with each passing day. One day, a kind family walks into the shelter looking for a new pet. What will you do?",
     "optionA": "PB_AA",
@@ -17,7 +17,7 @@
   },
   {
     "id": "PB_B",
-    "emotion": "happy",
+    "emotion": "Happy",
     "option": "Stay in the Cage",
     "story": "You decide to stay in the shelter, enjoying the company of your bird buddies. You grow stronger and more colorful with each passing day. One day, a kind family walks into the shelter looking for a new pet. What will you do?",
     "optionA": "PB_AA",
@@ -25,7 +25,7 @@
   },
   {
     "id": "PB_AA",
-    "emotion": "happy",
+    "emotion": "Happy",
     "option": "Interact with the Family",
     "story": "Excited about the potential for a new home, you interact with the family. They find you charming, and the children giggle at your antics. The family decides to adopt you! What's your next move?",
     "optionA": "PB_AAA",
@@ -33,7 +33,7 @@
   },
   {
     "id": "PB_AAA",
-    "emotion": "happy",
+    "emotion": "Happy",
     "option": "Perch on the Finger",
     "story": "You hop onto the finger of the family member, feeling a sense of security and warmth. They take you to your new home, where a comfortable cage and plenty of toys await. You spend your days chirping happily in your new abode.",
     "optionA": "PB_AAAAA",
@@ -41,7 +41,7 @@
   },
   {
     "id": "PB_AAAAA",
-    "emotion": "happy",
+    "emotion": "Happy",
     "option": "Sing Cheerfully",
     "story": "You sing your cheerful tunes, filling the house with happiness. The family adores your melodies, and you become a beloved member of their home. You live a long, happy life surrounded by love.",
     "optionA": "PB_MENU",
@@ -49,7 +49,7 @@
   },
   {
     "id": "PB_AAAAB",
-    "emotion": "sad",
+    "emotion": "Sad",
     "option": "Hide in the Cage",
     "story": "Feeling a bit overwhelmed, you decide to hide in your cage. The family gives you space, but over time, they work to earn your trust. Eventually, you come out and explore your new home. You grow to love your family and feel secure in your new environment.",
     "optionA": "PB_AAAAA",
@@ -57,7 +57,7 @@
   },
   {
     "id": "PB_AAAABB",
-    "emotion": "idle",
+    "emotion": "Idle",
     "option": "Observe Cautiously",
     "story": "You cautiously observe the family's activities, remaining on high alert. As time passes, you realize the family means no harm. Slowly, you become more comfortable and start to interact with them. Your newfound trust leads to a happy life with your adopted family.",
     "optionA": "PB_AAAAA",
@@ -65,7 +65,7 @@
   },
   {
     "id": "PB_AAB",
-    "emotion": "sad",
+    "emotion": "Sad",
     "option": "Stay in the Cage",
     "story": "Feeling a bit shy, you choose to stay in your cage. The family notices your hesitancy but respects your space. Over time, they work to earn your trust, and you eventually come out to explore your new home. You grow to love your family and feel secure in your new environment.",
     "optionA": "PB_AAAAA",
@@ -73,7 +73,7 @@
   },
   {
     "id": "PB_AABB",
-    "emotion": "idle",
+    "emotion": "Idle",
     "option": "Observe Cautiously",
     "story": "You cautiously observe the family's activities, remaining on high alert. As time passes, you realize the family means no harm. Slowly, you become more comfortable and start to interact with them. Your newfound trust leads to a happy life with your adopted family.",
     "optionA": "PB_AAAAA",
@@ -81,7 +81,7 @@
   },
   {
     "id": "PB_AABBB",
-    "emotion": "mad",
+    "emotion": "Mad",
     "option": "Refuse Interaction",
     "story": "You decide to keep your distance, refusing to interact with the family. They respect your choice but try to engage with you in various ways. Eventually, your curiosity gets the better of you, and you start to interact with the family. Over time, you become a joyful part of their home.",
     "optionA": "PB_AAAAA",
@@ -89,7 +89,7 @@
   },
   {
     "id": "PB_AABBB",
-    "emotion": "idle",
+    "emotion": "Idle",
     "option": "Observe Cautiously",
     "story": "You cautiously observe the family's activities, remaining on high alert. As time passes, you realize the family means no harm. Slowly, you become more comfortable and start to interact with them. Your newfound trust leads to a happy life with your adopted family.",
     "optionA": "PB_AAAAA",
@@ -97,7 +97,7 @@
   },
   {
     "id": "PB_AB",
-    "emotion": "happy",
+    "emotion": "Happy",
     "option": "Interact with the Shelter",
     "story": "You decide to interact with the shelter staff, chirping and showing off your vibrant feathers. They are impressed with your charm and decide to recommend you to potential adopters. What will you do?",
     "optionA": "PB_ABA",
@@ -105,7 +105,7 @@
   },
   {
     "id": "PB_ABA",
-    "emotion": "happy",
+    "emotion": "Happy",
     "option": "Meet Potential Adopters",
     "story": "You eagerly meet the potential adopters, showcasing your playful nature. A family falls in love with you and decides to take you to your new home. What's your next move?",
     "optionA": "PB_AAAA",
@@ -113,7 +113,7 @@
   },
   {
     "id": "PB_AAAB",
-    "emotion": "sad",
+    "emotion": "Sad",
     "option": "Hide in the Cage",
     "story": "Feeling a bit overwhelmed, you decide to hide in your cage. The family gives you space, but over time, they work to earn your trust. Eventually, you come out and explore your new home. You grow to love your family and feel secure in your new environment.",
     "optionA": "PB_AAAAA",
