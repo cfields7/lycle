@@ -177,11 +177,19 @@
   },
   {
     "id": "CS_AGAIN",
-    "option": "Try Being a Stray Cat Again"
+    "emotion": "idle",
+    "story": "",
+    "option": "Try Being a Stray Cat Again",
+    "optionA": "",
+    "optionB": ""
   },
   {
     "id": "CS_MENU",
-    "option": "Return to Main Menu"
+    "emotion": "idle",
+    "story": "",
+    "option": "Return to Main Menu",
+    "optionA": "",
+    "optionB": ""
   }
 
 
