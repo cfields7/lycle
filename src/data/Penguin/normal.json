@@ -48,6 +48,14 @@
     "optionB": "NP_AAAAB"
   },
   {
+    "id": "NP_AAAAA",
+    "emotion": "Idle",
+    "option": "Explore The House",
+    "story": "You explore the house, but in doing so get lost. You are just a silly goofy penguin after all.",
+    "optionA": "NP_START",
+    "optionB": "NP_MENU"
+  },
+  {
     "id": "NP_AB",
     "emotion": "Sad",
     "option": "Stay Home",
@@ -86,6 +94,14 @@
     "story": "Taking a risk, you approach the stranger who seems friendly until he puts you in a bag. Terrified, you endure the journey until the bag is unzipped, revealing a new environment.",
     "optionA": "NP_AAAAA",
     "optionB": "NP_AAAAB"
+  },
+  {
+    "id": "NP_AAAAB",
+    "emotion": "Fear",
+    "option": "Run For Your Life",
+    "story": "Suddenly, you are hit with feelings of fear. You have to escape. You make a run for it, but unfortunatley do not make it in the icy conditions outside.",
+    "optionA": "NP_START",
+    "optionB": "NP_MENU"
   },
   {
     "id": "NP_ABAB",
