@@ -40,14 +40,20 @@ function Game({ setCurrentPage, type, color, emotion, species, updateAnimalAttri
     return foundOption;
   }
 
+  function advanceChoice(nextId) {
+    if (nextId === "CS_MENU")
+      setCurrentPage("Home");
+    setId(nextId);
+  }
+
   return(
     <div className="Game">
       <Character type={type} color={color} emotion={emotion} species={species} updateAnimalAttribute={updateAnimalAttribute}/>
 
       <div>{getOptionById(type, id).story}</div>
 
-      <button onClick={() => {setId(getOptionById(type, id).optionA)}}>{getOptionById(type, getOptionById(type, id).optionA).option}</button>
-      <button>{getOptionById(type, getOptionById(type, id).optionB).option}</button>
+      <button onClick={() => advanceChoice(getOptionById(type, id).optionA)}>{getOptionById(type, getOptionById(type, id).optionA).option}</button>
+      <button onClick={() => advanceChoice(getOptionById(type, id).optionB)}>{getOptionById(type, getOptionById(type, id).optionB).option}</button>
 
     </div>
   );
