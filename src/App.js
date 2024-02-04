@@ -5,12 +5,24 @@ import Menu from './components/Menu.js';
 import Settings from './components/Settings.js';
 import Game from './components/Game.js';
 import Selection from './components/Selection.js';
+import Customization from './components/Customization.js';
 
 function App() {
 
   const [ currentPage, setCurrentPage ] = useState('Home');
 
   const [ gameSounds, setGameSounds ] = useState(false);
+
+  const [ animalAttributes, setAnimalAttributes ] = useState({
+    type: "Undefined",
+    color: "White",
+    emotion: "Idle",
+    species: "Undefined"
+  });
+
+  function updateAnimalAttribute(attribute, value) {
+    setAnimalAttributes({...animalAttributes, [attribute]: value});
+  }
 
   return (
     <div className="App">
@@ -22,7 +34,13 @@ function App() {
                                                  setGameSounds={setGameSounds}>
                                         </Settings>}
       {(currentPage === 'Game') && <Game setCurrentPage={setCurrentPage}></Game>}
-      {(currentPage === 'Selection') && <Selection setCurrentPage={setCurrentPage}></Selection>}
+      {(currentPage === 'Selection') && <Selection setCurrentPage={setCurrentPage}
+                                                   updateAnimalAttribute={updateAnimalAttribute}>
+                                        </Selection>}
+      {(currentPage === 'Customization') && <Customization setCurrentPage={setCurrentPage}
+                                                           animalAttributes={animalAttributes}
+                                                           updateAnimalAttribute={updateAnimalAttribute}>
+                                            </Customization>}
       
     </div>
   );

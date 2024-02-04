@@ -5,7 +5,7 @@ import BackImage from '../images/back_button.png';
 function BackButton({ navigateBack }) {
   return(
     <div className="BackButton">
-      <img src={BackImage} alt="Back Button" onClick={navigateBack}></img>
+      <img src={BackImage} draggable="false" alt="Back Button" onClick={navigateBack}></img>
     </div>
   );
 }

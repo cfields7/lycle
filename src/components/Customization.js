@@ -1,9 +1,13 @@
 import '../css/Customization.css';
 
-function Customization() {
+import Character from './Character';
+
+function Customization({ setCurrentPage, animalAttributes, updateAnimalAttribute }) {
   return(
     <div className="Customization">
-      
+      <Character animalAttributes={animalAttributes}/>
+
+      <button onClick={() => updateAnimalAttribute("color", "Green")}>Red</button>
     </div>
   );
 }

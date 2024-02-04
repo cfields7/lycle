@@ -1,0 +1,20 @@
+[
+  {
+    "id": "CS_A",
+    "option": "Continue Staying Close to Mom",
+    "story": "You decide it isn’t worth risking your life and getting lost, and stay home with your siblings. You wait for Mom to return. Hours turn to Days, and Days turn to Weeks. The 5 of you are barely getting by, eating small scraps here and there, but you feel weaker and weaker by the day.\nEventually, one day, you find the hunger too unbearable, and you topple over.",
+    "optionA": "CS_AA",
+    "optionB": "AB"
+  },
+  {
+    "id": "CS_B",
+    "option": "Continue Staying Close to Mom",
+    "story": "",
+    "optionA": "AA",
+    "optionB": "AB"
+  }
+
+
+
+
+]

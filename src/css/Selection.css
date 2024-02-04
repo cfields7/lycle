@@ -13,7 +13,8 @@
 }
 
 .animal {
-  height: 45vh;
+  height: min(45vh, 20vw);
+  width: min(45vh, 20vw);
   border: 1vh solid black;
   border-radius: 6vh;
   background-color: rgb(255, 166, 0);
