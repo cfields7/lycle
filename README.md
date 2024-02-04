@@ -5,7 +5,7 @@
 
 ## What is Lycle?
 
-Lycle is a web based React.JS game that follows the Cycle of Life (Life Circle -> Lycle) with exciting stories as you live through the lives of different animals!
+Lycle is a web based React.JS game that follows the Cycle of Life (Life Cycle -> Lycle) with exciting stories as you live through the lives of different animals!
 
 ## Why was it built?
 
