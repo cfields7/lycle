@@ -12,7 +12,7 @@ function Settings({ setCurrentPage, gameSounds, setGameSounds, audioRef, backgro
         </div>
 
         <div className="option">
-          <input type="checkbox" checked={backgroundMusic} onClick={(e) => {setBackgroundMusic(!backgroundMusic); audioRef.current.pause()}} />
+          <input type="checkbox" checked={backgroundMusic} onClick={(e) => {setBackgroundMusic(!backgroundMusic); backgroundMusic ? audioRef.current.pause() : audioRef.current.play()}} />
           Background Music
         </div>
       </div>
