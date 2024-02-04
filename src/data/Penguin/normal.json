@@ -1,0 +1,170 @@
+[
+  {
+    "id": "NP_START",
+    "emotion": "happy",
+    "option": "",
+    "story": "You hatch into the cold world as a tiny penguin chick, surrounded by the icy beauty of the Antarctic. Your mother, a loving penguin, keeps you close, ensuring your safety in this frosty environment. You spend your first few weeks staying at your mother's side, learning to waddle and swim in the chilly waters. Life is simple and happy.",
+    "optionA": "NP_A",
+    "optionB": "NP_B"
+  },
+  {
+    "id": "NP_A",
+    "emotion": "happy",
+    "option": "Continue Staying Close to Mom",
+    "story": "You decide it's best to stick close to your mother. You and your siblings huddle together, awaiting your mother's return from fishing. However, as time passes, the food becomes scarce, and hunger grips your little belly. What will you do?",
+    "optionA": "NP_AA",
+    "optionB": "NP_AB"
+  },
+  {
+    "id": "NP_AA",
+    "emotion": "idle",
+    "option": "Find Mom",
+    "story": "Unable to endure the hunger any longer, you set out to find your mom. Waddling through the icy landscape, you come across unfamiliar smells. Following the scent, you discover a fisherman's catch. What do you choose?",
+    "optionA": "NP_AAA",
+    "optionB": "NP_AAB"
+  },
+  {
+    "id": "NP_AAA",
+    "emotion": "sad",
+    "option": "Go Towards the Food",
+    "story": "Driven by hunger, you approach the delicious aroma of fresh fish. Suddenly, a human appears, placing you in a bag. Terrified, you await your fate. The bag is unzipped, revealing a new environment. What will you do now?",
+    "optionA": "NP_AAAA",
+    "optionB": "NP_AAAB"
+  },
+  {
+    "id": "NP_AAAA",
+    "emotion": "happy",
+    "option": "Leave the Bag",
+    "story": "Curiosity gets the better of you, and you bravely leave the bag. Exploring your surroundings, you find yourself in a human's home. Years pass, and one day your owner brings home a female human. What's your next move?",
+    "optionA": "NP_AAAAA",
+    "optionB": "NP_AAAAB"
+  },
+  {
+    "id": "NP_AAAAA",
+    "emotion": "happy",
+    "option": "Greet Her Excitedly",
+    "story": "You approach the new human, sniffing and nuzzling. She seems friendly, and you approve. You decide to break the news to your owner in a playful manner. How do you communicate your happiness?",
+    "optionA": "NP_AAAAAA",
+    "optionB": "NP_AAAAAB"
+  },
+  {
+    "id": "NP_AAAAAA",
+    "emotion": "happy",
+    "option": "Meow",
+    "story": "You meow at your owner, who laughs at your cuteness. The three of you live a long, healthy, and happily ever after.",
+    "optionA": "NP_MENU",
+    "optionB": "NP_AGAIN"
+  },
+  {
+    "id": "NP_AAAAAB",
+    "emotion": "happy",
+    "option": "Purr",
+    "story": "You purr at your owner, and the new human is astonished at your cuteness. The three of you live a long, healthy, and happily ever after.",
+    "optionA": "NP_MENU",
+    "optionB": "NP_AGAIN"
+  },
+  {
+    "id": "NP_AB",
+    "emotion": "happy",
+    "option": "Keep Walking",
+    "story": "Suspicious of potential traps, you ignore the tempting smell of fish. As you continue, you spot a friendly-looking penguin in the distance. What will you do?",
+    "optionA": "NP_ABA",
+    "optionB": "NP_ABB"
+  },
+  {
+    "id": "NP_ABA",
+    "emotion": "mad",
+    "option": "Approach the Penguin",
+    "story": "You approach the seemingly friendly penguin, only to be ignored. This encounter teaches you to be cautious, and you continue wandering alone, losing your siblings. Years pass, and one day a stranger approaches with a bag. What's your decision?",
+    "optionA": "NP_ABAA",
+    "optionB": "NP_ABAB"
+  },
+  {
+    "id": "NP_ABAA",
+    "emotion": "sad",
+    "option": "Approach the Stranger",
+    "story": "Taking a risk, you approach the stranger who seems friendly until he puts you in a bag. Terrified, you endure the journey until the bag is unzipped, revealing a new environment.",
+    "optionA": "NP_AAAAA",
+    "optionB": "NP_AAAAB"
+  },
+  {
+    "id": "NP_ABAB",
+    "emotion": "fear",
+    "option": "Run Away",
+    "story": "You decide not to trust the stranger and run away, but a fast-approaching metal object collides with you. The world fades to black.",
+    "optionA": "NP_MENU",
+    "optionB": "NP_AGAIN"
+  },
+  {
+    "id": "NP_ABB",
+    "emotion": "sad",
+    "option": "Keep Walking",
+    "story": "Unwilling to trust the unknown penguin, you continue walking. Suddenly, a fast-approaching metal object collides with you. The world fades to black.",
+    "optionA": "NP_MENU",
+    "optionB": "NP_AGAIN"
+  },
+  {
+    "id": "NP_B",
+    "emotion": "happy",
+    "option": "Wander from the Colony",
+    "story": "As a curious penguin, you decide to wander away from your colony. Your mother calls out to you, but she's preoccupied with your siblings. You explore the icy landscapes, and a human calls out to you. What will you do?",
+    "optionA": "NP_ABA",
+    "optionB": "NP_ABB"
+  },
+  {
+    "id": "NP_AABAB",
+    "emotion": "fear",
+    "option": "Run Away",
+    "story": "You decide not to trust the human and run away, but a fast-approaching metal object collides with you. The world fades to black.",
+    "optionA": "NP_MENU",
+    "optionB": "NP_AGAIN"
+  },
+  {
+    "id": "NP_AABB",
+    "emotion": "happy",
+    "option": "Ignore the Penguin",
+    "story": "Anxious about potential traps, you ignore the friendly-looking penguin and continue your journey. As time passes, you lose your siblings and find yourself alone. One day, a stranger calls out to you with a bag. What's your decision?",
+    "optionA": "NP_AABBA",
+    "optionB": "NP_AABBB"
+  },
+  {
+    "id": "NP_AABBA",
+    "emotion": "mad",
+    "option": "Approach the Stranger",
+    "story": "If not friend, then why friend-shaped? You approach the stranger cautiously. The encounter teaches you that not all humans can be trusted. Lost in the icy landscapes, you continue living off scraps. Years pass, and a stranger holding a bag calls out to you. What will you do?",
+    "optionA": "NP_AABBAA",
+    "optionB": "NP_AABBAB"
+  },
+  {
+    "id": "NP_AABBAA",
+    "emotion": "sad",
+    "option": "Approach the Stranger",
+    "story": "Taking a risk, you approach the stranger who seems friendly until he puts you in a bag. Terrified, you endure the journey until the bag is unzipped, revealing a new environment.",
+    "optionA": "NP_AAAAA",
+    "optionB": "NP_AAAAB"
+  },
+  {
+    "id": "NP_AABBAB",
+    "emotion": "fear",
+    "option": "Run Away",
+    "story": "You decide not to trust the stranger and run away, but a fast-approaching metal object collides with you. The world fades to black.",
+    "optionA": "NP_MENU",
+    "optionB": "NP_AGAIN"
+  },
+  {
+    "id": "NP_AABBB",
+    "emotion": "sad",
+    "option": "Keep Walking",
+    "story": "Unwilling to trust the unknown stranger, you continue walking. Suddenly, a fast-approaching metal object collides with you. The world fades to black.",
+    "optionA": "NP_MENU",
+    "optionB": "NP_AGAIN"
+  },
+  {
+    "id": "NP_MENU",
+    "option": "Return to Main Menu"
+  },
+  {
+    "id": "NP_AGAIN",
+    "option": "Try Being a Stray Penguin Again"
+  }
+]
