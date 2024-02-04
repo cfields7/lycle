@@ -1,70 +1,28 @@
-# Getting Started with Create React App
+![Lycle Logo](src/images/Lycle_Logo.png)
+#[Play now at lycle.co](https://www.lycle.co)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## What is Lycle?
 
-## Available Scripts
+Lycle is a web based React.JS game that follows the Cycle of Life (Life Circle -> Lycle) with exciting stories as you live through the lives of different animals!
 
-In the project directory, you can run:
+## Why was it built?
 
-### `npm start`
+This project was created in less than 24 hours for the Hack_NCState MLH event that took place on February 3rd to February 4th. NC State students Christopher Fields and Fayaz Shaikh were tasked with coming up with and creating a project that matched one of four tracks, and they chose to follow the Cycle of Life.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## How does it fit?
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Lycle fits the Cycle of Life track more than just by it's name. The sole purpose of the game was to provide an educational and insightful look at different animals that exist in our world and how they live thier lives from birth to death. The game poses a fun choose your own adventure where users are encoruaged to discover all paths to unlock all of the avatars on the home screen.
 
-### `npm test`
+## What was development like?
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Okay, time to pull back the curtain. This is Fayaz, it is 3 AM, and I am typing this README after staying up tonight despite getting only an hour or two of sleep last night. While that may sound not so great, development of this game has been an experience of great learning, as this is both Christopher and I's first ever hackathon, despite this being our fourth year studying engineering. 
 
-### `npm run build`
+Going into this project, we brainstormed ideas and the idea hit me around 12 PM as my cat screamed at me while I discussed how we could make software about the Cycle of Life. We decided we would make a game in a big engine, and started with Unity. After having issues and realizing we were learning something brand new in a tight time restraint, we switched to Unreal. 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The switch to Unreal was less than ideal. Everything we tried ultimatlty lead to naught, and we found ourseleves having to restart around 4:30 PM, right as we attended a talk from Google where it was mentioned that many times through the creation process, it is common to have to start over from scratch. After dinner, we began working in React.JS, something Christopher felt more comfortable in but I had no knowledge.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Whilst making all the sprites and envisioning all the screens the user would encounter, Christopher worked on the code to get the HTML side of things running. Once we had a working menu system, we registered our free domain with the name we decided on--Lycle--and did a CNAME to start publicly hosting the game on said domain, lycle.co
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+And that leads us to here. I have written out paths for the story and we are integrating them while I create this README.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
