@@ -1,5 +1,5 @@
 ![Lycle Logo](src/images/Lycle_Logo.png)
-#[Play now at lycle.co](https://www.lycle.co)
+# [Play now at lycle.co](https://www.lycle.co)
 
 ## What is Lycle?
 
@@ -27,6 +27,10 @@ And that leads us to here. I have written out paths for the story and we are int
 
 - Update 1:
 
-As the time now reads past 4AM, Christopher has recorded me doing sounds for the animals and playing piano for game background music. We now have all original sounds incorporated into the game as I get ready to write the final path for now!
+  As the time now reads past 4AM, Christopher has recorded me doing sounds for the animals and playing piano for game background music. We now have all original sounds incorporated into the game as I get ready to write the final story path for now!
+
+- Update 2:
+
+  Now around 5:30AM, we have gotten some great functionality. We have game story paths for all three animals, a scrolling background, looping background music, face emotion animation states, and Christopher is currently working on getting the emotion state sounds to play. I feel proud of the progress we've made in such short time.
 
 
