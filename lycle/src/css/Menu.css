@@ -1,0 +1,10 @@
+.Menu {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.menuButtons {
+  display: flex;
+  flex-direction: column;
+}
