@@ -18,6 +18,9 @@
 .story.Yellow {
   filter: drop-shadow(4px 4px 5px #fff200);
 }
+.story.July {
+  filter: drop-shadow(4px 4px 5px linear-gradient(red, blue, white));
+}
 
 .storyOptions {
   display: flex;

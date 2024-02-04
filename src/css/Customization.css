@@ -47,6 +47,9 @@
 .yellow {
   background-color: #fff200;
 }
+.july {
+  background-color: linear-gradient(red, blue, white);
+}
 
 .startButton {
   margin-top: 9vh;

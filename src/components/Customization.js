@@ -28,6 +28,10 @@ function Customization({ setCurrentPage, type, color, emotion, species, updateAn
           <div className="color blue" onClick={() => animalChangeColor("Blue")}></div>
           <div className="color white" onClick={() => animalChangeColor("White")}></div>
         </div>
+        <div className="colorLabel">Special</div>
+        <div className="colorSelection">
+          <div className="color july" onClick={() => animalChangeColor("July")}></div>
+        </div>
         <button className="startButton" onClick={() => setCurrentPage("Game")}>Start Game!</button>
       </div>
 
