@@ -1,5 +1,5 @@
 ![Lycle Logo](src/images/Lycle_Logo.png)
-# Play now at lycle.co
+#[Play now at lycle.co](https://www.lycle.co)
 
 ## What is Lycle?
 
@@ -17,7 +17,7 @@ Lycle fits the Cycle of Life track more than just by it's name. The sole purpose
 
 Okay, time to pull back the curtain. This is Fayaz, it is 3 AM, and I am typing this README after staying up tonight despite getting only an hour or two of sleep last night. While that may sound not so great, development of this game has been an experience of great learning, as this is both Christopher and I's first ever hackathon, despite this being our fourth year studying engineering. 
 
-Going into this project, we brainstormed ideas and the idea hit me around 12 PM as mt cat screamed at me while I discussed how we could make software about the Cycle of Life. We decided we would make a game in a big engine, and started with Unity. After having issues and realizing we were learning something brand new in a tight time restraint, we switched to Unreal. 
+Going into this project, we brainstormed ideas and the idea hit me around 12 PM as my cat screamed at me while I discussed how we could make software about the Cycle of Life. We decided we would make a game in a big engine, and started with Unity. After having issues and realizing we were learning something brand new in a tight time restraint, we switched to Unreal. 
 
 The switch to Unreal was less than ideal. Everything we tried ultimatlty lead to naught, and we found ourseleves having to restart around 4:30 PM, right as we attended a talk from Google where it was mentioned that many times through the creation process, it is common to have to start over from scratch. After dinner, we began working in React.JS, something Christopher felt more comfortable in but I had no knowledge.
 
