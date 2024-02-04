@@ -6,6 +6,7 @@ import BirdJuly from '../images/Characters/Bird/Colors/Bird_July.png';
 import BirdRed from '../images/Characters/Bird/Colors/Bird_Red.png';
 import BirdWhite from '../images/Characters/Bird/Colors/Bird_White.png';
 import BirdYellow from '../images/Characters/Bird/Colors/Bird_Yellow.png';
+import BirdOrange from '../images/Characters/Bird/Colors/Bird_Orange.png';
 
 import BirdIdle from '../images/Characters/Bird/Faces/Bird_Idle.png';
 import BirdHappy from '../images/Characters/Bird/Faces/Bird_Happy.png';
@@ -18,6 +19,7 @@ import CatGreen from '../images/Characters/Cat/Colors/Cat_Green.png';
 import CatRed from '../images/Characters/Cat/Colors/Cat_Red.png';
 import CatWhite from '../images/Characters/Cat/Colors/Cat_White.png';
 import CatYellow from '../images/Characters/Cat/Colors/Cat_Yellow.png';
+import CatOrange from '../images/Characters/Cat/Colors/Cat_Orange.png';
 
 import CatIdle from '../images/Characters/Cat/Faces/Cat_Idle.png';
 import CatHappy from '../images/Characters/Cat/Faces/Cat_Happy.png';
@@ -30,6 +32,7 @@ import PenguinGreen from '../images/Characters/Penguin/Colors/Penguin_Green.png'
 import PenguinRed from '../images/Characters/Penguin/Colors/Penguin_Red.png';
 import PenguinWhite from '../images/Characters/Penguin/Colors/Penguin_White.png';
 import PenguinYellow from '../images/Characters/Penguin/Colors/Penguin_Yellow.png';
+import PenguinOrange from '../images/Characters/Penguin/Colors/Penguin_Orange.png';
 
 import PenguinIdle from '../images/Characters/Penguin/Faces/Penguin_Idle.png';
 import PenguinHappy from '../images/Characters/Penguin/Faces/Penguin_Happy.png';
@@ -59,6 +62,9 @@ function Character({ type, color, emotion, species, updateAnimalAttribute }) {
         </div>}
         {color === "Yellow" && <div>
           <img src={BirdYellow} alt="Character" className="currentPlayer"></img>
+        </div>}
+        {color === "Orange" && <div>
+          <img src={BirdOrange} alt="Character" className="currentPlayer"></img>
         </div>}
 
         {emotion === "Idle" && <div>
@@ -94,6 +100,9 @@ function Character({ type, color, emotion, species, updateAnimalAttribute }) {
         {color === "Yellow" && <div>
           <img src={CatYellow} alt="Character" className="currentPlayer"></img>
         </div>}
+        {color === "Orange" && <div>
+          <img src={CatOrange} alt="Character" className="currentPlayer"></img>
+        </div>}
 
         {emotion === "Idle" && <div>
           <img src={CatIdle} alt="Character" className="currentPlayer"></img>
@@ -127,6 +136,9 @@ function Character({ type, color, emotion, species, updateAnimalAttribute }) {
         </div>}
         {color === "Yellow" && <div>
           <img src={PenguinYellow} alt="Character" className="currentPlayer"></img>
+        </div>}
+        {color === "Orange" && <div>
+          <img src={PenguinOrange} alt="Character" className="currentPlayer"></img>
         </div>}
 
         {emotion === "Idle" && <div>
