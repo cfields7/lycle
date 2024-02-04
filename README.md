@@ -19,7 +19,7 @@ Okay, time to pull back the curtain. This is Fayaz, it is 3 AM, and I am typing 
 
 Going into this project, we brainstormed ideas and the idea hit me around 12 PM as my cat screamed at me while I discussed how we could make software about the Cycle of Life. We decided we would make a game in a big engine, and started with Unity. After having issues and realizing we were learning something brand new in a tight time restraint, we switched to Unreal. 
 
-The switch to Unreal was less than ideal. Everything we tried ultimatlty lead to naught, and we found ourseleves having to restart around 4:30 PM, right as we attended a talk from Google where it was mentioned that many times through the creation process, it is common to have to start over from scratch. After dinner, we began working in React.JS, something Christopher felt more comfortable in but I had no knowledge.
+The switch to Unreal was less than ideal. Everything we tried ultimatlty lead to naught, and we found ourselves having to restart around 4:30 PM, right as we attended a talk from Google where it was mentioned that many times through the creation process, it is common to have to start over from scratch. After dinner, we began working in React.JS, something Christopher felt more comfortable in but I had no knowledge.
 
 Whilst making all the sprites and envisioning all the screens the user would encounter, Christopher worked on the code to get the HTML side of things running. Once we had a working menu system, we registered our free domain with the name we decided on--Lycle--and did a CNAME to start publicly hosting the game on said domain, lycle.co
 
