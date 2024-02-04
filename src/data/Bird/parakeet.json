@@ -16,6 +16,14 @@
     "optionB": "PB_AB"
   },
   {
+    "id": "PB_B",
+    "emotion": "happy",
+    "option": "Stay in the Cage",
+    "story": "You decide to stay in the shelter, enjoying the company of your bird buddies. You grow stronger and more colorful with each passing day. One day, a kind family walks into the shelter looking for a new pet. What will you do?",
+    "optionA": "PB_AA",
+    "optionB": "PB_AB"
+  },
+  {
     "id": "PB_AA",
     "emotion": "happy",
     "option": "Interact with the Family",
