@@ -33,4 +33,6 @@ And that leads us to here. I have written out paths for the story and we are int
 
   Now around 5:30AM, we have gotten some great functionality. We have game story paths for all three animals, a scrolling background, looping background music, face emotion animation states, and Christopher is currently working on getting the emotion state sounds to play. I feel proud of the progress we've made in such short time.
 
+- Update 3:
 
+  Christopher here - we just passed 7 AM and are ready to call this project into a finished state. Sleep time!
