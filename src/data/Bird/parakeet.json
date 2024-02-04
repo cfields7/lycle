@@ -133,7 +133,7 @@
     "option": "Interact with the Staff",
     "story": "You decide to interact with the shelter staff, chirping and showing off your vibrant feathers. They are impressed with your charm and decide to recommend you to potential adopters. What will you do?",
     "optionA": "PB_ABA",
-    "optionB": "PB_ABB"
+    "optionB": "PA_BAA"
   },
   {
     "id": "PB_ABA",
