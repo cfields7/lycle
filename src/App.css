@@ -6,5 +6,23 @@
 }
 
 button {
-  font-family: 'Fredoka One';
+  font-size: 4vh;
+  padding: 1vh 2vh;
+  color: #28392b;
+  background-color: #a3c78d;
+  border-color: #4c6c53;
+  background-image: url('./images/Button_Pattern.png');
+  border-radius: 2vh;
+  font-weight: bold;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke: 1px black;
+}
+
+button:hover {
+  background-color: rgb(164, 219, 131);
+  cursor: pointer;
+}
+
+button:active {
+  background-color: rgb(140, 181, 115);
 }

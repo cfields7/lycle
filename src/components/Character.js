@@ -7,11 +7,23 @@ import BirdRed from '../images/Characters/Bird/Colors/Bird_Red.png';
 import BirdWhite from '../images/Characters/Bird/Colors/Bird_White.png';
 import BirdYellow from '../images/Characters/Bird/Colors/Bird_Yellow.png';
 
+import BirdIdle from '../images/Characters/Bird/Faces/Bird_Idle.png';
+import BirdHappy from '../images/Characters/Bird/Faces/Bird_Happy.png';
+import BirdSad from '../images/Characters/Bird/Faces/Bird_Sad.png';
+import BirdFear from '../images/Characters/Bird/Faces/Bird_Fear.png';
+import BirdMad from '../images/Characters/Bird/Faces/Bird_Mad.png';
+
 import CatBlue from '../images/Characters/Cat/Colors/Cat_Blue.png';
 import CatGreen from '../images/Characters/Cat/Colors/Cat_Green.png';
 import CatRed from '../images/Characters/Cat/Colors/Cat_Red.png';
 import CatWhite from '../images/Characters/Cat/Colors/Cat_White.png';
 import CatYellow from '../images/Characters/Cat/Colors/Cat_Yellow.png';
+
+import CatIdle from '../images/Characters/Cat/Faces/Cat_Idle.png';
+import CatHappy from '../images/Characters/Cat/Faces/Cat_Happy.png';
+import CatSad from '../images/Characters/Cat/Faces/Cat_Sad.png';
+import CatFear from '../images/Characters/Cat/Faces/Cat_Fear.png';
+import CatMad from '../images/Characters/Cat/Faces/Cat_Mad.png';
 
 import PenguinBlue from '../images/Characters/Penguin/Colors/Penguin_Blue.png';
 import PenguinGreen from '../images/Characters/Penguin/Colors/Penguin_Green.png';
@@ -19,64 +31,118 @@ import PenguinRed from '../images/Characters/Penguin/Colors/Penguin_Red.png';
 import PenguinWhite from '../images/Characters/Penguin/Colors/Penguin_White.png';
 import PenguinYellow from '../images/Characters/Penguin/Colors/Penguin_Yellow.png';
 
-function Character({ animalAttributes }) {
+import PenguinIdle from '../images/Characters/Penguin/Faces/Penguin_Idle.png';
+import PenguinHappy from '../images/Characters/Penguin/Faces/Penguin_Happy.png';
+import PenguinSad from '../images/Characters/Penguin/Faces/Penguin_Sad.png';
+import PenguinFear from '../images/Characters/Penguin/Faces/Penguin_Fear.png';
+import PenguinMad from '../images/Characters/Penguin/Faces/Penguin_Mad.png';
+
+function Character({ type, color, emotion, species, updateAnimalAttribute }) {
 
   return(
     <div className="Character">
-      {animalAttributes.type === "Bird" && <div>
-        {animalAttributes.color === "Blue" && <div>
-          <img src={BirdBlue} alt="Character"></img>
+      {type === "Bird" && <div>
+        {color === "Blue" && <div>
+          <img src={BirdBlue} alt="Character" className="currentPlayer"></img>
         </div>}
-        {animalAttributes.color === "Green" && <div>
-          <img src={BirdGreen} alt="Character"></img>
+        {color === "Green" && <div>
+          <img src={BirdGreen} alt="Character" className="currentPlayer"></img>
         </div>}
-        {animalAttributes.color === "July" && <div>
-          <img src={BirdJuly} alt="Character"></img>
+        {color === "July" && <div>
+          <img src={BirdJuly} alt="Character" className="currentPlayer"></img>
         </div>}
-        {animalAttributes.color === "Red" && <div>
-          <img src={BirdRed} alt="Character"></img>
+        {color === "Red" && <div>
+          <img src={BirdRed} alt="Character" className="currentPlayer"></img>
         </div>}
-        {animalAttributes.color === "White" && <div>
-          <img src={BirdWhite} alt="Character"></img>
+        {color === "White" && <div>
+          <img src={BirdWhite} alt="Character" className="currentPlayer"></img>
         </div>}
-        {animalAttributes.color === "Yellow" && <div>
-          <img src={BirdYellow} alt="Character"></img>
+        {color === "Yellow" && <div>
+          <img src={BirdYellow} alt="Character" className="currentPlayer"></img>
+        </div>}
+
+        {emotion === "Idle" && <div>
+          <img src={BirdIdle} alt="Character" className="currentPlayer"></img>
+        </div>}
+        {emotion === "Happy" && <div>
+          <img src={BirdHappy} alt="Character" className="currentPlayer"></img>
+        </div>}
+        {emotion === "Sad" && <div>
+          <img src={BirdSad} alt="Character" className="currentPlayer"></img>
+        </div>}
+        {emotion === "Fear" && <div>
+          <img src={BirdFear} alt="Character" className="currentPlayer"></img>
+        </div>}
+        {emotion === "Mad" && <div>
+          <img src={BirdMad} alt="Character" className="currentPlayer"></img>
         </div>}
       </div>}
 
-      {animalAttributes.type === "Cat" && <div>
-        {animalAttributes.color === "Blue" && <div>
-          <img src={CatBlue} alt="Character"></img>
+      {type === "Cat" && <div>
+        {color === "Blue" && <div>
+          <img src={CatBlue} alt="Character" className="currentPlayer"></img>
         </div>}
-        {animalAttributes.color === "Green" && <div>
-          <img src={CatGreen} alt="Character"></img>
+        {color === "Green" && <div>
+          <img src={CatGreen} alt="Character" className="currentPlayer"></img>
         </div>}
-        {animalAttributes.color === "Red" && <div>
-          <img src={CatRed} alt="Character"></img>
+        {color === "Red" && <div>
+          <img src={CatRed} alt="Character" className="currentPlayer"></img>
         </div>}
-        {animalAttributes.color === "White" && <div>
-          <img src={CatWhite} alt="Character"></img>
+        {color === "White" && <div>
+          <img src={CatWhite} alt="Character" className="currentPlayer"></img>
         </div>}
-        {animalAttributes.color === "Yellow" && <div>
-          <img src={CatYellow} alt="Character"></img>
+        {color === "Yellow" && <div>
+          <img src={CatYellow} alt="Character" className="currentPlayer"></img>
+        </div>}
+
+        {emotion === "Idle" && <div>
+          <img src={CatIdle} alt="Character" className="currentPlayer"></img>
+        </div>}
+        {emotion === "Happy" && <div>
+          <img src={CatHappy} alt="Character" className="currentPlayer"></img>
+        </div>}
+        {emotion === "Sad" && <div>
+          <img src={CatSad} alt="Character" className="currentPlayer"></img>
+        </div>}
+        {emotion === "Fear" && <div>
+          <img src={CatFear} alt="Character" className="currentPlayer"></img>
+        </div>}
+        {emotion === "Mad" && <div>
+          <img src={CatMad} alt="Character" className="currentPlayer"></img>
         </div>}
       </div>}
 
-      {animalAttributes.type === "Penguin" && <div>
-        {animalAttributes.color === "Blue" && <div>
-          <img src={PenguinBlue} alt="Character"></img>
+      {type === "Penguin" && <div>
+        {color === "Blue" && <div>
+          <img src={PenguinBlue} alt="Character" className="currentPlayer"></img>
         </div>}
-        {animalAttributes.color === "Green" && <div>
-          <img src={PenguinGreen} alt="Character"></img>
+        {color === "Green" && <div>
+          <img src={PenguinGreen} alt="Character" className="currentPlayer"></img>
         </div>}
-        {animalAttributes.color === "Red" && <div>
-          <img src={PenguinRed} alt="Character"></img>
+        {color === "Red" && <div>
+          <img src={PenguinRed} alt="Character" className="currentPlayer"></img>
         </div>}
-        {animalAttributes.color === "White" && <div>
-          <img src={PenguinWhite} alt="Character"></img>
+        {color === "White" && <div>
+          <img src={PenguinWhite} alt="Character" className="currentPlayer"></img>
         </div>}
-        {animalAttributes.color === "Yellow" && <div>
-          <img src={PenguinYellow} alt="Character"></img>
+        {color === "Yellow" && <div>
+          <img src={PenguinYellow} alt="Character" className="currentPlayer"></img>
+        </div>}
+
+        {emotion === "Idle" && <div>
+          <img src={PenguinIdle} alt="Character" className="currentPlayer"></img>
+        </div>}
+        {emotion === "Happy" && <div>
+          <img src={PenguinHappy} alt="Character" className="currentPlayer"></img>
+        </div>}
+        {emotion === "Sad" && <div>
+          <img src={PenguinSad} alt="Character" className="currentPlayer"></img>
+        </div>}
+        {emotion === "Fear" && <div>
+          <img src={PenguinFear} alt="Character" className="currentPlayer"></img>
+        </div>}
+        {emotion === "Mad" && <div>
+          <img src={PenguinMad} alt="Character" className="currentPlayer"></img>
         </div>}
       </div>}
     </div>

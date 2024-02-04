@@ -172,8 +172,8 @@
     "emotion": "happy",
     "option": "",
     "story": "MEOW! You awake into the world screaming as the light blinds you. Where are you? It's cold. You spend your first few weeks staying at your mother's side, she is going to protect you, she would never leave, right?",
-    "optionA": "",
-    "optionB": ""
+    "optionA": "CS_A",
+    "optionB": "CS_B"
   },
   {
     "id": "CS_AGAIN",

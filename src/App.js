@@ -13,15 +13,28 @@ function App() {
 
   const [ gameSounds, setGameSounds ] = useState(false);
 
-  const [ animalAttributes, setAnimalAttributes ] = useState({
-    type: "Undefined",
-    color: "White",
-    emotion: "Idle",
-    species: "Undefined"
-  });
+  const [ animalType, setAnimalType ] = useState("Undefined");
+  const [ animalColor, setAnimalColor ] = useState("White");
+  const [ animalEmotion, setAnimalEmotion ] = useState("Idle");
+  const [ animalSpecies, setAnimalSpecies ] = useState("Undefined");
 
   function updateAnimalAttribute(attribute, value) {
-    setAnimalAttributes({...animalAttributes, [attribute]: value});
+    switch(attribute) {
+      case("type"):
+        setAnimalType(value);
+        break;
+      case("color"):
+        setAnimalColor(value);
+        break;
+      case("emotion"):
+        setAnimalEmotion(value);
+        break;
+      case("species"):
+        setAnimalSpecies(value);
+        break;
+      default:
+        break;
+    }
   }
 
   return (
@@ -33,12 +46,20 @@ function App() {
                                                  gameSounds={gameSounds}
                                                  setGameSounds={setGameSounds}>
                                         </Settings>}
-      {(currentPage === 'Game') && <Game setCurrentPage={setCurrentPage}></Game>}
+      {(currentPage === 'Game') && <Game setCurrentPage={setCurrentPage}
+                                         type={animalType}
+                                         color={animalColor}
+                                         emotion={animalEmotion}
+                                         species={animalSpecies}
+                                         updateAnimalAttribute={updateAnimalAttribute}></Game>}
       {(currentPage === 'Selection') && <Selection setCurrentPage={setCurrentPage}
                                                    updateAnimalAttribute={updateAnimalAttribute}>
                                         </Selection>}
       {(currentPage === 'Customization') && <Customization setCurrentPage={setCurrentPage}
-                                                           animalAttributes={animalAttributes}
+                                                           type={animalType}
+                                                           color={animalColor}
+                                                           emotion={animalEmotion}
+                                                           species={animalSpecies}
                                                            updateAnimalAttribute={updateAnimalAttribute}>
                                             </Customization>}
       
