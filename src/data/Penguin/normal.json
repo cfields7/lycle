@@ -177,6 +177,7 @@
   },
   {
     "id": "NP_MENU",
+    "emotion": "Idle",
     "option": "Return to Main Menu"
   }
 ]

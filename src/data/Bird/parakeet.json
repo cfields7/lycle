@@ -144,6 +144,14 @@
     "optionB": "PB_AAAB"
   },
   {
+    "id": "PB_AAAA",
+    "emotion": "Happy",
+    "option": "Accept Adoption",
+    "story": "You live a happy life with your new owners.",
+    "optionA": "PB_MENU",
+    "optionB": "PB_START"
+  },
+  {
     "id": "PB_AAAB",
     "emotion": "Sad",
     "option": "Hide in the Cage",
@@ -153,6 +161,7 @@
   },
   {
     "id": "PB_MENU",
+    "emotion": "Idle",
     "option": "Return to Main Menu"
   }
 ]
