@@ -4,11 +4,15 @@ import LycleLogo from '../images/Lycle_Logo.png';
 function Menu({ setCurrentPage }) {
   return(
     <div className="Menu">
-      <img src={LycleLogo}></img>
+      <img className="logo" src={LycleLogo} alt="Lycle Logo"></img>
       <div className="menuButtons">
-        <button onClick={() => setCurrentPage()}>Play</button>
-        <button onClick={() => setCurrentPage("Settings")}>Setting</button>
+        <button onClick={() => setCurrentPage("Selection")}>Play</button>
+        <button onClick={() => setCurrentPage("Settings")}>Settings</button>
       </div>
+      <div className="credits">
+        <div>Fayaz & Christopher</div>
+        <div>Hack_NCState 2024</div>
+      </div>  
     </div>
   );
 }

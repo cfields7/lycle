@@ -1,0 +1,16 @@
+.Settings {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.retry {
+  position: absolute;
+  font-size: 7vh;
+  left: 30px;
+}
+
+.retry:hover {
+  cursor: pointer;
+}

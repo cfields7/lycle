@@ -1,3 +1,10 @@
 .App {
-  text-align: center;
+  height: 100%;
+  background-image: url('./images/Menu_Pattern.png');
+  background-color: #f3c801;
+  font-family: 'Fredoka One';
+}
+
+button {
+  font-family: 'Fredoka One';
 }
