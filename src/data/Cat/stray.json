@@ -21,7 +21,7 @@
     "option": "Go Towards the Food",
     "story": "You wander towards the smell of food. Your stomach turns as you excite over the thought of having a nice meal. As you approach the smell, you find a metal can filled with fresh tuna. You look around, then begin to chow down.\nSuddenly, a man emerges with a bag. Before you can react, he lifts your small kitten body into the bag and zips it closed. You sit in the bag for minutes, pacing around, terrified. Eventually, the bag is set down and unzipped.",
     "optionA": "CS_AAAA",
-    "optionB": "CS_AAAB"
+    "optionB": "CS_AABAB"
   },
   {
     "id": "CS_AAB",
@@ -29,7 +29,7 @@
     "option": "Keep Walking",
     "story": "Anxious that it could be a trap, you ignore the food smell. You can't trust just anyone these days. You continue walking down the road when you notice a friendly face in a window of one of the homes. It looks like another cat. What do you do?",
     "optionA": "CS_AABA",
-    "optionB": "CS_AABB"
+    "optionB": "CS_AAAB"
   },
   {
     "id": "CS_AABA",
@@ -88,11 +88,11 @@
     "optionB": "CS_AAAAB"
   },
   {
-    "id": "CS_AAAB",
+    "id": "CS_AABAAA",
     "emotion": "Fear",
     "option": "Stay in the Bag",
     "story": "You don't know where you are and you aren't going to risk it. You are just a baby after all. You stay in the bag you were trapped in until the human starts to scoop you up out of the bag against your will. You close your eyes, scared of what you might see.",
-    "optionA": "CS_AABAAA",
+    "optionA": "CS_AABAAAA",
     "optionB": "CS_AABAAB"
   },
   {
@@ -112,7 +112,7 @@
     "optionB": "CS_AAAABBB"
   },
   {
-    "id": "CS_AABAAA",
+    "id": "CS_AABAAAA",
     "emotion": "Fear",
     "option": "PANICCCC",
     "story": "Your heart rate climbs are you panic and try to break out of the bag. Before you know it, the world is becoming dizzy around you and fades to black...",
