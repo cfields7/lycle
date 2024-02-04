@@ -2,7 +2,7 @@
   {
     "id": "NP_START",
     "emotion": "Happy",
-    "option": "",
+    "option": "Try Being a Penguin Again",
     "story": "You hatch into the cold world as a tiny penguin chick, surrounded by the icy beauty of the Antarctic. Your mother, a loving penguin, keeps you close, ensuring your safety in this frosty environment. You spend your first few weeks staying at your mother's side, learning to waddle and swim in the chilly waters. Life is simple and happy.",
     "optionA": "NP_A",
     "optionB": "NP_B"
@@ -16,6 +16,14 @@
     "optionB": "NP_AB"
   },
   {
+    "id": "NP_B",
+    "emotion": "Happy",
+    "option": "Wander from the Colony",
+    "story": "As a curious penguin, you decide to wander away from your colony. Your mother calls out to you, but she's preoccupied with your siblings. You explore the icy landscapes, and a human calls out to you. What will you do?",
+    "optionA": "NP_ABA",
+    "optionB": "NP_ABB"
+  },
+  {
     "id": "NP_AA",
     "emotion": "idle",
     "option": "Find Mom",
@@ -25,7 +33,7 @@
   },
   {
     "id": "NP_AAA",
-    "emotion": "Sad",
+    "emotion": "Fear",
     "option": "Go Towards the Food",
     "story": "Driven by hunger, you approach the delicious aroma of fresh fish. Suddenly, a human appears, placing you in a bag. Terrified, you await your fate. The bag is unzipped, revealing a new environment. What will you do now?",
     "optionA": "NP_AAAA",
@@ -35,36 +43,20 @@
     "id": "NP_AAAA",
     "emotion": "Happy",
     "option": "Leave the Bag",
-    "story": "Curiosity gets the better of you, and you bravely leave the bag. Exploring your surroundings, you find yourself in a human's home. Years pass, and one day your owner brings home a female human. What's your next move?",
+    "story": "Curiosity gets the better of you, and you bravely leave the bag. Exploring your surroundings, you find yourself in a human's home.\n\nYears pass, and you find yourself loving the warmth of humans and forget all about what being a penguin means.",
     "optionA": "NP_AAAAA",
     "optionB": "NP_AAAAB"
   },
   {
-    "id": "NP_AAAAA",
-    "emotion": "Happy",
-    "option": "Greet Her Excitedly",
-    "story": "You approach the new human, sniffing and nuzzling. She seems friendly, and you approve. You decide to break the news to your owner in a playful manner. How do you communicate your happiness?",
-    "optionA": "NP_AAAAAA",
-    "optionB": "NP_AAAAAB"
-  },
-  {
-    "id": "NP_AAAAAA",
-    "emotion": "Happy",
-    "option": "Meow",
-    "story": "You meow at your owner, who laughs at your cuteness. The three of you live a long, healthy, and happily ever after.",
-    "optionA": "NP_MENU",
-    "optionB": "NP_AGAIN"
-  },
-  {
-    "id": "NP_AAAAAB",
-    "emotion": "Happy",
-    "option": "Purr",
-    "story": "You purr at your owner, and the new human is astonished at your cuteness. The three of you live a long, healthy, and happily ever after.",
-    "optionA": "NP_MENU",
-    "optionB": "NP_AGAIN"
-  },
-  {
     "id": "NP_AB",
+    "emotion": "Sad",
+    "option": "Stay Home",
+    "story": "The hunger sucks but you don't want to leave the saftey and coldness of your home. You starve to death.",
+    "optionA": "NP_START",
+    "optionB": "NP_MENU"
+  },
+  {
+    "id": "NP_ABB",
     "emotion": "Happy",
     "option": "Keep Walking",
     "story": "Suspicious of potential traps, you ignore the tempting smell of fish. As you continue, you spot a friendly-looking penguin in the distance. What will you do?",
@@ -80,6 +72,14 @@
     "optionB": "NP_ABAB"
   },
   {
+    "id": "NP_ABB",
+    "emotion": "Mad",
+    "option": "Keep Walking",
+    "story": "You ignore the penguin as it may not be friendly. The penguin is offended and throws a sharp stone directly at your skull.",
+    "optionA": "NP_START",
+    "optionB": "NP_MENU"
+  },
+  {
     "id": "NP_ABAA",
     "emotion": "Sad",
     "option": "Approach the Stranger",
@@ -91,25 +91,25 @@
     "id": "NP_ABAB",
     "emotion": "Fear",
     "option": "Run Away",
-    "story": "You decide not to trust the stranger and run away, but a fast-approaching metal object collides with you. The world fades to black.",
-    "optionA": "NP_MENU",
-    "optionB": "NP_AGAIN"
+    "story": "You decide not to trust the stranger and run away, but the penguin who ignored you earlier catches you in her arms.",
+    "optionA": "NP_ABABA",
+    "optionB": "NP_ABABB"
   },
   {
-    "id": "NP_ABB",
-    "emotion": "Sad",
-    "option": "Keep Walking",
-    "story": "Unwilling to trust the unknown penguin, you continue walking. Suddenly, a fast-approaching metal object collides with you. The world fades to black.",
+    "id": "NP_ABABA",
+    "emotion": "Mad",
+    "option": "Scold Her",
+    "story": "'How dare you', you should, upset she would save your life. You run off into the distance never to be found again, consumed by your anger.",
     "optionA": "NP_MENU",
-    "optionB": "NP_AGAIN"
+    "optionB": "NP_START"
   },
   {
-    "id": "NP_B",
+    "id": "NP_ABABB",
     "emotion": "Happy",
-    "option": "Wander from the Colony",
-    "story": "As a curious penguin, you decide to wander away from your colony. Your mother calls out to you, but she's preoccupied with your siblings. You explore the icy landscapes, and a human calls out to you. What will you do?",
-    "optionA": "NP_ABA",
-    "optionB": "NP_ABB"
+    "option": "Romannce Her",
+    "story": "You pull the penguin closer, and hand her a pebble, proposing on the spot. You two live a long happy life together",
+    "optionA": "NP_MENU",
+    "optionB": "NP_START"
   },
   {
     "id": "NP_AABAB",
@@ -117,7 +117,7 @@
     "option": "Run Away",
     "story": "You decide not to trust the human and run away, but a fast-approaching metal object collides with you. The world fades to black.",
     "optionA": "NP_MENU",
-    "optionB": "NP_AGAIN"
+    "optionB": "NP_START"
   },
   {
     "id": "NP_AABB",
@@ -149,7 +149,7 @@
     "option": "Run Away",
     "story": "You decide not to trust the stranger and run away, but a fast-approaching metal object collides with you. The world fades to black.",
     "optionA": "NP_MENU",
-    "optionB": "NP_AGAIN"
+    "optionB": "NP_START"
   },
   {
     "id": "NP_AABBB",
@@ -157,14 +157,10 @@
     "option": "Keep Walking",
     "story": "Unwilling to trust the unknown stranger, you continue walking. Suddenly, a fast-approaching metal object collides with you. The world fades to black.",
     "optionA": "NP_MENU",
-    "optionB": "NP_AGAIN"
+    "optionB": "NP_START"
   },
   {
     "id": "NP_MENU",
     "option": "Return to Main Menu"
   },
-  {
-    "id": "NP_AGAIN",
-    "option": "Try Being a Stray Penguin Again"
-  }
 ]
