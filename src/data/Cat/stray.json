@@ -49,7 +49,7 @@
   },
   {
     "id": "CS_AABAB",
-    "emotion": "sad",
+    "emotion": "fear",
     "option": "Run Away",
     "story": "You don't know the man, so why risk it? You bolt down the street, running away with fear, when suddenly a large metal object rolls into you really fast.",
     "optionA": "CS_MENU",
@@ -89,7 +89,7 @@
   },
   {
     "id": "CS_AAAB",
-    "emotion": "sad",
+    "emotion": "fear",
     "option": "Stay in the Bag",
     "story": "You don't know where you are and you aren't going to risk it. You are just a baby after all. You stay in the bag you were trapped in until the human starts to scoop you up out of the bag against your will. You close your eyes, scared of what you might see.",
     "optionA": "CS_AABAAA",
@@ -97,7 +97,7 @@
   },
   {
     "id": "CS_AAAAB",
-    "emotion": "sad",
+    "emotion": "fear",
     "option": "HIDE!",
     "story": "You don't know this hooman! You cannot trust this hooman! HIDE!\n\nTwo hours later and she is still here.",
     "optionA": "CS_AAAAA",
@@ -105,7 +105,7 @@
   },
   {
     "id": "CS_AAAABB",
-    "emotion": "sad",
+    "emotion": "fear",
     "option": "Remain Hidden",
     "story": "You cannot trust this woman, you don't know one thing about her! Hours pass and you remain hidden and your owner calls for you desperate. He is concerned because you have not eaten your food in a long time.",
     "optionA": "CS_AAAABBA",
@@ -113,7 +113,7 @@
   },
   {
     "id": "CS_AABAAA",
-    "emotion": "sad",
+    "emotion": "fear",
     "option": "PANICCCC",
     "story": "Your heart rate climbs are you panic and try to break out of the bag. Before you know it, the world is becoming dizzy around you and fades to black...",
     "optionA": "CS_MENU",
@@ -129,7 +129,7 @@
   },
   {
     "id": "CS_AAAABBA",
-    "emotion": "sad",
+    "emotion": "fear",
     "option": "Remain Hidden",
     "story": "Despite your hooman's desperate pleas for you to come out, you do not. You slowly feel famine take over, but live a life of fear of the woman that was in the house, and don't knwo if she's still there but won't risk it. Days pass and you get light headed and the world fades to black...",
     "optionA": "CS_MENU",
