@@ -33,7 +33,7 @@
   },
   {
     "id": "CS_AABA",
-    "emotion": "idle",
+    "emotion": "mad",
     "option": "Go Towards the Cat",
     "story": "If not friend, then why friend shaped? You go towards the friendly looking cat and exchange a meow. It doesn't even bat an eye, and seems to ignore you. From this encounter, you learn that not all cats are your friend, and you have to fend for yourself.\nLost in the streets, you continue to wander, living off scraps, and have lost your siblings. Years pass. One day, you are walking the street, when a stranger calls out to you to come over. This has happened before, and oftentimes they give you food, but this time, he is holding a bag and you are worried he might try to catnap you. What do you do?",
     "optionA": "CS_AABAA",
@@ -105,9 +105,9 @@
   },
   {
     "id": "CS_AAAABB",
-    "emotion": "fear",
+    "emotion": "mad",
     "option": "Remain Hidden",
-    "story": "You cannot trust this woman, you don't know one thing about her! Hours pass and you remain hidden and your owner calls for you desperate. He is concerned because you have not eaten your food in a long time.",
+    "story": "You cannot trust this woman, you don't know one thing about her! You are hungy, scared, and angy. Hours pass and you remain hidden and your owner calls for you desperate. He is concerned because you have not eaten your food in a long time.",
     "optionA": "CS_AAAABBA",
     "optionB": "CS_AAAABBB"
   },
