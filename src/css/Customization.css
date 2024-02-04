@@ -47,6 +47,9 @@
 .yellow {
   background-color: #fff200;
 }
+.orange {
+  background-color: #ff7f27;
+}
 .july {
   background-color: linear-gradient(red, blue, white);
 }

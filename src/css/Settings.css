@@ -5,12 +5,34 @@
   align-items: center;
 }
 
-.retry {
-  position: absolute;
+.settingsTitle {
+  padding-top: 3vh;
+  padding-bottom: 2vh;
   font-size: 7vh;
-  left: 30px;
 }
 
-.retry:hover {
-  cursor: pointer;
+.options {
+  display: flex;
+  flex-direction: column;
+  font-size: 3vh;
+  height: 20px;
+  gap: 20px;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+input[type='checkbox'] {
+  width:30px;
+  height:30px;
+  background:white;
+  border-radius:5px;
+  border:2px solid #555;
+}
+
+input[type='checkbox']:checked {
+  background: #abd;
 }

@@ -1,13 +1,20 @@
 import '../css/Settings.css';
 import BackButton from './BackButton';
 
-function Settings({ setCurrentPage, gameSounds, setGameSounds }) {
+function Settings({ setCurrentPage, gameSounds, setGameSounds, audioRef, backgroundMusic, setBackgroundMusic }) {
   return(
     <div className="Settings">
-      <h1>Settings</h1>
+      <div className="settingsTitle">Audio Settings</div>
       <div className="options">
-        <input type="checkbox" checked={gameSounds} onClick={(e) => {console.log(gameSounds); setGameSounds(!gameSounds)}} />
-        Game Sounds
+        <div className="option">
+          <input type="checkbox" checked={gameSounds} onClick={(e) => {setGameSounds(!gameSounds)}} />
+          Game Sounds
+        </div>
+
+        <div className="option">
+          <input type="checkbox" checked={backgroundMusic} onClick={(e) => {setBackgroundMusic(!backgroundMusic); audioRef.current.pause()}} />
+          Background Music
+        </div>
       </div>
       <BackButton navigateBack={() => setCurrentPage("Home")} />
     </div>

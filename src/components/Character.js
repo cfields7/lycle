@@ -2,7 +2,6 @@ import '../css/Character.css';
 
 import BirdBlue from '../images/Characters/Bird/Colors/Bird_Blue.png';
 import BirdGreen from '../images/Characters/Bird/Colors/Bird_Green.png';
-import BirdJuly from '../images/Characters/Bird/Colors/Bird_July.png';
 import BirdRed from '../images/Characters/Bird/Colors/Bird_Red.png';
 import BirdWhite from '../images/Characters/Bird/Colors/Bird_White.png';
 import BirdYellow from '../images/Characters/Bird/Colors/Bird_Yellow.png';
@@ -53,9 +52,6 @@ function Character({ type, color, emotion, species, updateAnimalAttribute }) {
         </div>}
         {color === "Green" && <div>
           <img src={BirdGreen} alt="Character" className="currentPlayer"></img>
-        </div>}
-        {color === "July" && <div>
-          <img src={BirdJuly} alt="Character" className="currentPlayer"></img>
         </div>}
         {color === "Red" && <div>
           <img src={BirdRed} alt="Character" className="currentPlayer"></img>

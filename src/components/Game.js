@@ -21,7 +21,7 @@ import PenguinHappy from '../audio/penguin_happy.mp3';
 import PenguinSad from '../audio/penguin_sad.mp3';
 import PenguinMad from '../audio/penguin_mad.mp3';
 
-function Game({ setCurrentPage, type, color, emotion, species, updateAnimalAttribute }) {
+function Game({ setCurrentPage, type, color, emotion, species, updateAnimalAttribute, gameSounds }) {
   const BFRef = useRef(null);
   const BHRef = useRef(null);
   const BSRef = useRef(null);
@@ -86,42 +86,45 @@ function Game({ setCurrentPage, type, color, emotion, species, updateAnimalAttri
     let emotion = getOptionById(type, nextId).emotion
     updateAnimalAttribute("emotion", emotion);
 
-    switch(emotion) {
-      case("Fear"):
-        if (type === "Bird")
-          BFRef.current.play();
-        if (type === "Cat")
-          CFRef.current.play();
-        if (type === "Penguin")
-          PFRef.current.play();
-        break;
-      case("Happy"):
-      if (type === "Bird")
-        BHRef.current.play();
-      if (type === "Cat")
-        CHRef.current.play();
-      if (type === "Penguin")
-        PHRef.current.play();
-        break;
-      case("Sad"):
-      if (type === "Bird")
-        BSRef.current.play();
-      if (type === "Cat")
-        CSRef.current.play();
-      if (type === "Penguin")
-        PSRef.current.play();
-        break;
-      case("Mad"):
-        if (type === "Bird")
-          BMRef.current.play();
-        if (type === "Cat")
-          CMRef.current.play();
-        if (type === "Penguin")
-          PMRef.current.play();
-        break;
+    if (gameSounds) {
 
-        default:
+      switch(emotion) {
+        case("Fear"):
+          if (type === "Bird")
+            BFRef.current.play();
+          if (type === "Cat")
+            CFRef.current.play();
+          if (type === "Penguin")
+            PFRef.current.play();
           break;
+        case("Happy"):
+        if (type === "Bird")
+          BHRef.current.play();
+        if (type === "Cat")
+          CHRef.current.play();
+        if (type === "Penguin")
+          PHRef.current.play();
+          break;
+        case("Sad"):
+        if (type === "Bird")
+          BSRef.current.play();
+        if (type === "Cat")
+          CSRef.current.play();
+        if (type === "Penguin")
+          PSRef.current.play();
+          break;
+        case("Mad"):
+          if (type === "Bird")
+            BMRef.current.play();
+          if (type === "Cat")
+            CMRef.current.play();
+          if (type === "Penguin")
+            PMRef.current.play();
+          break;
+
+          default:
+            break;
+      }
     }
   }
 
